@@ -5,22 +5,248 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7838c716-69cf-404a-bff5-78089607a701" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.1-laba/.idea/dictionaries/nikit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/DogMoveComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/DogMoveComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/UserInputData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/UserInputData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/CharacterMoveSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/CharacterMoveSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Fonts/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Fonts/Poppins-Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Fonts/Poppins-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Fonts/Poppins-MediumItalic.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_100.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_150.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_200.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_round_130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_round_130.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_round_220.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_round_220.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_round_320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_round_320.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_round_400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/buttons/button_round_400.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/cross.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/cross_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/cross_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/cross_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/cross_03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/cross_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/cross_04.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/radio.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/radio_100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/radio_100.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/radio_200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/radio_200.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/radio_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/radio_60.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/slider_handle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/toggle_bg_100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/toggle_bg_100.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/toggle_bg_200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/toggle_bg_200.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/toggle_bg_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/toggle_bg_50.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/universal_panel_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/universal_panel_10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/universal_panel_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/universal_panel_20.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/universal_panel_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/controls/universal_panel_40.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/arrow_down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/arrow_left.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/arrow_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/arrow_right.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/arrow_up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/checkmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/checkmark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/heart.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/help.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/info.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/menu.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/message.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/minus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/pause.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/play.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/plus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/repeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/repeat.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/settings.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/share.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/speaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/speaker.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/star.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/user.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/128x128/x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/arrow_down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/arrow_left.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/arrow_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/arrow_right.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/arrow_up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/checkmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/checkmark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/heart.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/help.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/info.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/menu.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/message.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/minus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/pause.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/play.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/plus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/repeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/repeat.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/settings.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/share.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/speaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/speaker.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/star.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/user.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/256x256/x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/arrow_down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/arrow_left.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/arrow_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/arrow_right.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/arrow_up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/checkmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/checkmark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/heart.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/help.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/info.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/menu.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/message.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/minus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/pause.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/play.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/plus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/repeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/repeat.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/settings.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/share.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/speaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/speaker.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/star.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/user.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/32x32/x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/arrow_down.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/arrow_left.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/arrow_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/arrow_right.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/arrow_up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/checkmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/checkmark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/heart.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/help.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/info.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/menu.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/message.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/minus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/pause.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/play.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/plus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/repeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/repeat.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/settings.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/share.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/speaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/speaker.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/star.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/user.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/Textures/icons/64x64/x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FreeButtonSet/background.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ShootAbility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ShootAbility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/CharacterShootSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/CharacterShootSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Interfaces.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Interfaces/IAbility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Interfaces/IAbility.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1-laba/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1-laba/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DogMoveComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DogMoveComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/DogMoveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/DogMoveSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/UserInputData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/UserInputData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/UserInputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/UserInputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserInputData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserInputData.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +256,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/00/6a76abf1/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/a1/4291ae0c/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/d6/8f194a1f/Time.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/f4/07b11d60/HideInInspector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/fa/dcb2ce37/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c33c0c5a04db4bce8348382d5d1b29be21000/d7/12f16ff0/IConvertGameObjectToEntity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/DogMoveComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CharacterMoveSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CharacterShootSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/DogMoveSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/UserInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.50.1-preview.2/Unity.Entities/ComponentSystemBase.cs" root0="SKIP_HIGHLIGHTING" />
@@ -87,10 +316,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="5748">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="5748" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -108,7 +337,7 @@
       <updated>1660142965497</updated>
       <workItem from="1660143054128" duration="1571000" />
       <workItem from="1660219123632" duration="3638000" />
-      <workItem from="1660222933991" duration="629000" />
+      <workItem from="1660222933991" duration="6183000" />
     </task>
     <servers />
   </component>
@@ -132,6 +361,27 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Systems/CharacterShootSystem.cs</url>
+          <line>19</line>
+          <properties documentPath="C:\Users\nikit\Documents\GitHub\1-laba\Assets\Scripts\Systems\CharacterShootSystem.cs" initialLine="19" containingFunctionPresentation="lambda expression inside method 'OnUpdate'">
+            <startOffsets>
+              <option value="605" />
+              <option value="654" />
+            </startOffsets>
+            <endOffsets>
+              <option value="653" />
+              <option value="655" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -7,8 +7,12 @@ using UnityEngine.InputSystem;
 namespace Systems {
 	public class UserInputSystem : ComponentSystem {
 		private EntityQuery _inputQuery; // запрос на движение
+
 		private InputAction _moveAction; // это наш ввод
-		private float2      _moveInput;
+		private InputAction _shootAction;
+
+		private float2 _moveInput;
+		private float  _shootInput;
 
 		// Запускается при создании системы (что-то типа awake)
 		protected override void OnCreate() {
@@ -28,6 +32,7 @@ namespace Systems {
 				.With("Right", "<Keyboard>/d");
 
 			// заполняем все делегаты (все возможные состояния устройства ввода)
+			// performed - это что-то типа GetMouseBtn - тоесть срабатывает всегда когда нажата клавиша
 			_moveAction.performed += context => {
 				_moveInput = context.ReadValue<Vector2>();
 			};
@@ -38,16 +43,30 @@ namespace Systems {
 				_moveInput = context.ReadValue<Vector2>();
 			};
 			_moveAction.Enable();
+
+			_shootAction = new InputAction("shoot", binding: "<Keyboard>/Space");
+			_shootAction.performed += context => {
+				_shootInput = context.ReadValue<float>();
+			};
+			_shootAction.started += context => {
+				_shootInput = context.ReadValue<float>();
+			};
+			_shootAction.canceled += context => {
+				_shootInput = context.ReadValue<float>();
+			};
+			_shootAction.Enable();
 		}
 
 		protected override void OnStopRunning() {
 			_moveAction.Disable();
+			_shootAction.Disable();
 		}
 
 		protected override void OnUpdate() {
 			Entities.With(_inputQuery).ForEach(
 				(Entity entity, ref InputData inputData) => {
-					inputData.Move = _moveInput;
+					inputData.Move  = _moveInput;
+					inputData.Shoot = _shootInput;
 				});
 		}
 	}
