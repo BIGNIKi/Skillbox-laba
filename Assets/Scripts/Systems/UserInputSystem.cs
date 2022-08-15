@@ -10,9 +10,11 @@ namespace Systems {
 
 		private InputAction _moveAction; // это наш ввод
 		private InputAction _shootAction;
+		private InputAction _rushAction;
 
 		private float2 _moveInput;
 		private float  _shootInput;
+		private bool   _rushInput;
 
 		// Запускается при создании системы (что-то типа awake)
 		protected override void OnCreate() {
@@ -55,11 +57,22 @@ namespace Systems {
 				_shootInput = context.ReadValue<float>();
 			};
 			_shootAction.Enable();
+
+			_rushAction           =  new InputAction("rush", binding: "<Keyboard>/R");
+			_rushAction.performed += context => {};
+			_rushAction.started += context => {
+				_rushInput = context.ReadValueAsButton();
+			};
+			_rushAction.canceled += context => {
+				_rushInput = context.ReadValueAsButton();
+			};
+			_rushAction.Enable();
 		}
 
 		protected override void OnStopRunning() {
 			_moveAction.Disable();
 			_shootAction.Disable();
+			_rushAction.Disable();
 		}
 
 		protected override void OnUpdate() {
@@ -67,6 +80,8 @@ namespace Systems {
 				(Entity entity, ref InputData inputData) => {
 					inputData.Move  = _moveInput;
 					inputData.Shoot = _shootInput;
+					inputData.Rush  = _rushInput;
+					_rushInput      = false;
 				});
 		}
 	}

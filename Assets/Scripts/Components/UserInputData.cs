@@ -22,8 +22,9 @@ namespace Components {
 
 	// IComponentData говорит ECS, что InputData является компонентом ECS
 	public struct InputData : IComponentData {
-		public float2 Move;
-		public float  Shoot;
+		public  float2 Move;
+		public  float  Shoot;
+		public  bool   Rush;
 	}
 
 	public struct MoveData : IComponentData {

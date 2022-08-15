@@ -1,6 +1,7 @@
 using Components;
 using Systems.Interfaces;
 using Unity.Entities;
+using Unity.Transforms;
 
 namespace Systems {
 	public class CharacterShootSystem : ComponentSystem {
