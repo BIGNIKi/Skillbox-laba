@@ -550,7 +550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6015f496e8354eab9d48a013da0a1d2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shootDelay: 2
+  _shootDelay: 0.5
   _bullet: {fileID: 4357045368541284075, guid: 54b608e0d750ba2458ee048104e4a2f1, type: 3}
 --- !u!1 &1103719925
 GameObject:
@@ -908,6 +908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DogPBR
       objectReference: {fileID: 0}
+    - target: {fileID: 8845912188884468465, guid: 214e08cd5e5d74c458e2a81b7ec2c84c, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2800000, guid: 632776cb97988674c8daa001a86108a1, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 214e08cd5e5d74c458e2a81b7ec2c84c, type: 3}
 --- !u!1 &1784360076

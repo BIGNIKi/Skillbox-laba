@@ -18,7 +18,7 @@ namespace Systems {
 				( Entity entity, Transform transform, ref InputData inputData,  ref MoveData moveData) => {
 					var pos = transform.position;
 					var deltaDirection = new Vector3(inputData.Move.x * moveData.Speed, 0, inputData.Move.y * moveData.Speed);
-					pos += deltaDirection;
+					pos += deltaDirection * Time.DeltaTime;
 
 					var lengthOfVec = Mathf.Sqrt(inputData.Move.x * inputData.Move.x + inputData.Move.y * inputData.Move.y);
 					if (!lengthOfVec.Equals(0f)) {

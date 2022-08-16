@@ -13,7 +13,7 @@ namespace Components {
 			// благодаря этому в Entity дебагере можно будет смотреть что происходит с данными
 			// также при помощи этого наши структуры будут висеть на GO как компоненты
 			dstManager.AddComponentData(entity, new InputData());
-			dstManager.AddComponentData(entity, new MoveData { Speed = speed / 100 });
+			dstManager.AddComponentData(entity, new MoveData { Speed = speed });
 			if (ShootAction != null && ShootAction is IAbility) {
 				dstManager.AddComponentData(entity, new ShootData());
 			}

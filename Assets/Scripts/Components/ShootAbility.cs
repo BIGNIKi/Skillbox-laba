@@ -37,7 +37,7 @@ namespace Components {
 			// это ссыль на созданный объект
 			var instance = _entityManager.Instantiate(_bulletEntity);
 			_entityManager.SetComponentData(instance,
-				new Translation { Value = new float3(0, 0, 0) });
+				new Translation { Value = this.transform.position });
 			_entityManager.SetComponentData(instance,
 				new Rotation { Value = this.transform.rotation });
 		}

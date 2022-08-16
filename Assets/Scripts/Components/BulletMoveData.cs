@@ -8,7 +8,7 @@ namespace Components {
 
 		public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem) {
 			dstManager.AddComponentData(entity, new BulletData {
-				Speed = _speed / 100, 
+				Speed = _speed, 
 				TimeToExist = _timeToExist,
 				ActualExistingTime = 0f,
 			});

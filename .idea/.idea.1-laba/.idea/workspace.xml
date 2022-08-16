@@ -5,30 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7838c716-69cf-404a-bff5-78089607a701" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GlobalEntitiesDependencies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GlobalEntitiesDependencies/GlobalEntitySceneDependency.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GlobalEntitiesDependencies/GlobalEntitySceneDependency.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/fireWhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/fireWhite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/rushWhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/rushWhite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/BulletMoveData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/BulletMoveData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/BulletMoveSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/BulletMoveSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1-laba/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1-laba/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/BulletMoveData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/BulletMoveData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/ShootAbility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ShootAbility.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/UserInputData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/UserInputData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/BulletMoveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/BulletMoveSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/CharacterMoveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/CharacterMoveSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/CharacterShootSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/CharacterShootSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/UserInputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/UserInputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +33,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/DogMoveSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Interfaces/IAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/UserInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.17.0-preview.42/Unity.Transforms/Rotation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.1/Unity.Mathematics/quaternion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.rendering.hybrid@0.11.0-preview.44/Unity.Rendering.Hybrid/Deformations/Systems/PushSkinMatrixSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.rendering.hybrid@0.11.0-preview.44/Unity.Rendering.Hybrid/TrackShaderReflectionChangesSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -104,10 +88,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="27328">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="27328" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -129,6 +113,7 @@
       <workItem from="1660457574970" duration="17318000" />
       <workItem from="1660567611515" duration="5339000" />
       <workItem from="1660577286410" duration="2240000" />
+      <workItem from="1660653145154" duration="3115000" />
     </task>
     <servers />
   </component>
@@ -152,25 +137,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Systems/BulletMoveSystem.cs</url>
-          <line>20</line>
-          <properties documentPath="C:\Users\nikit\Documents\GitHub\1-laba\Assets\Scripts\Systems\BulletMoveSystem.cs" initialLine="17" containingFunctionPresentation="lambda expression inside method 'OnUpdate'">
-            <startOffsets>
-              <option value="600" />
-            </startOffsets>
-            <endOffsets>
-              <option value="639" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
