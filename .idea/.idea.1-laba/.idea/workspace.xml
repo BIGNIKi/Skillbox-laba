@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7838c716-69cf-404a-bff5-78089607a701" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InputConfigs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InputConfigs/New Controls.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InputConfigs/New Controls.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1-laba/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1-laba/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/BulletMoveData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/BulletMoveData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/ShootAbility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ShootAbility.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/UserInputData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/UserInputData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/BulletMoveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/BulletMoveSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/CharacterMoveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/CharacterMoveSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputActions/New Controls.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputActions/New Controls.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputActions/New Controls.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputActions/New Controls.inputactions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/UserInputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/UserInputSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9c79dfaa81ca4dafa70d4219450af5e1c5400/4d/9be6bd1f/Position.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c33c0c5a04db4bce8348382d5d1b29be21000/d7/12f16ff0/IConvertGameObjectToEntity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/DogMoveComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputConfigs/New Controls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CharacterMoveSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CharacterShootSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/DogMoveSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -114,6 +116,7 @@
       <workItem from="1660567611515" duration="5339000" />
       <workItem from="1660577286410" duration="2240000" />
       <workItem from="1660653145154" duration="3115000" />
+      <workItem from="1660823142303" duration="2540000" />
     </task>
     <servers />
   </component>

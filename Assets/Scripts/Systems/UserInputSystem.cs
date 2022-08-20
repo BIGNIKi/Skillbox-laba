@@ -1,4 +1,5 @@
 using Components;
+using InputConfigs;
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;
@@ -6,23 +7,22 @@ using UnityEngine.InputSystem;
 
 namespace Systems {
 	public class UserInputSystem : ComponentSystem {
+		[SerializeField] private UserInputControl _controls;
+		
 		private EntityQuery _inputQuery; // запрос на движение
-
 		private InputAction _moveAction; // это наш ввод
 		private InputAction _shootAction;
 		private InputAction _rushAction;
-
-		private float2 _moveInput;
-		private float  _shootInput;
-		private bool   _rushInput;
+		private float2      _moveInput;
+		private float       _shootInput;
+		private bool        _rushInput;
 
 		// Запускается при создании системы (что-то типа awake)
 		protected override void OnCreate() {
 			// кешируем запрос, который будет искать все Entity с компонентом UserInputData
 			_inputQuery = GetEntityQuery(ComponentType.ReadOnly<InputData>());
 		}
-
-		// TODO: остановился на 4:50
+		
 		protected override void OnStartRunning() {
 			// создаем новое действие ввода с названием move
 			// оно будет появляться как реакция на right stick на геймпаде
