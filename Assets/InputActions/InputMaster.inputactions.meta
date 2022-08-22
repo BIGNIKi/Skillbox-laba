@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 469cd6cfd4a7e4448aab425cf4d98580
+guid: 2ab2de38e23114c46b4d1a8323a0703e
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -9,6 +9,6 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 8404be70184654265930450def6a9037, type: 3}
   generateWrapperCode: 1
-  wrapperCodePath: Assets/Scripts/InputConfigs/New Controls.cs
-  wrapperClassName: UserInputControl
-  wrapperCodeNamespace: InputConfigs
+  wrapperCodePath: Assets/Scripts/InputConfigs/InputMaster.cs
+  wrapperClassName: 
+  wrapperCodeNamespace: 

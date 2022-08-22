@@ -3,76 +3,72 @@ using InputConfigs;
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace Systems {
 	public class UserInputSystem : ComponentSystem {
-		[SerializeField] private UserInputControl _controls;
-		
+
+		private InputMaster _inputMaster;
 		private EntityQuery _inputQuery; // запрос на движение
-		private InputAction _moveAction; // это наш ввод
-		private InputAction _shootAction;
-		private InputAction _rushAction;
 		private float2      _moveInput;
-		private float       _shootInput;
 		private bool        _rushInput;
+		private float       _shootInput;
 
 		// Запускается при создании системы (что-то типа awake)
 		protected override void OnCreate() {
 			// кешируем запрос, который будет искать все Entity с компонентом UserInputData
 			_inputQuery = GetEntityQuery(ComponentType.ReadOnly<InputData>());
+
+			_inputMaster = new InputMaster();
+		}
+
+		protected override void OnStartRunning() {
+			AddMoveInputCallback();
+			AddShootInputCallback();
+			AddRushInputCallback();
+		}
+
+		private void AddMoveInputCallback() {
+			_inputMaster.Player.move.performed += context => {
+				_moveInput = context.ReadValue<Vector2>();
+			};
+			_inputMaster.Player.move.started += context => {
+				_moveInput = context.ReadValue<Vector2>();
+			};
+			_inputMaster.Player.move.canceled += context => {
+				_moveInput = context.ReadValue<Vector2>();
+			};
+			_inputMaster.Player.move.Enable();
+		}
+
+		private void AddShootInputCallback() {
+			_inputMaster.Player.shoot.performed += context => {
+				_shootInput = context.ReadValue<float>();
+			};
+			_inputMaster.Player.shoot.started += context => {
+				_shootInput = context.ReadValue<float>();
+			};
+			_inputMaster.Player.shoot.canceled += context => {
+				_shootInput = context.ReadValue<float>();
+			};
+			_inputMaster.Player.shoot.Enable();
 		}
 		
-		protected override void OnStartRunning() {
-			// создаем новое действие ввода с названием move
-			// оно будет появляться как реакция на right stick на геймпаде
-			_moveAction = new InputAction("move", binding: "<Gamepad>/rightStick");
-			_moveAction.AddCompositeBinding("Dpad")
-				.With("Up", "<Keyboard>/w")
-				.With("Down", "<Keyboard>/s")
-				.With("Left", "<Keyboard>/a")
-				.With("Right", "<Keyboard>/d");
+		private void AddRushInputCallback() {
 
-			// заполняем все делегаты (все возможные состояния устройства ввода)
-			// performed - это что-то типа GetMouseBtn - тоесть срабатывает всегда когда нажата клавиша
-			_moveAction.performed += context => {
-				_moveInput = context.ReadValue<Vector2>();
-			};
-			_moveAction.started += context => {
-				_moveInput = context.ReadValue<Vector2>();
-			};
-			_moveAction.canceled += context => {
-				_moveInput = context.ReadValue<Vector2>();
-			};
-			_moveAction.Enable();
-
-			_shootAction = new InputAction("shoot", binding: "<Keyboard>/Space");
-			_shootAction.performed += context => {
-				_shootInput = context.ReadValue<float>();
-			};
-			_shootAction.started += context => {
-				_shootInput = context.ReadValue<float>();
-			};
-			_shootAction.canceled += context => {
-				_shootInput = context.ReadValue<float>();
-			};
-			_shootAction.Enable();
-
-			_rushAction           =  new InputAction("rush", binding: "<Keyboard>/R");
-			_rushAction.performed += context => {};
-			_rushAction.started += context => {
+			_inputMaster.Player.rush.performed += context => {};
+			_inputMaster.Player.rush.started += context => {
 				_rushInput = context.ReadValueAsButton();
 			};
-			_rushAction.canceled += context => {
+			_inputMaster.Player.rush.canceled += context => {
 				_rushInput = context.ReadValueAsButton();
 			};
-			_rushAction.Enable();
+			_inputMaster.Player.rush.Enable();
 		}
 
 		protected override void OnStopRunning() {
-			_moveAction.Disable();
-			_shootAction.Disable();
-			_rushAction.Disable();
+			_inputMaster.Player.move.Disable();
+			_inputMaster.Player.shoot.Disable();
+			_inputMaster.Player.rush.Disable();
 		}
 
 		protected override void OnUpdate() {

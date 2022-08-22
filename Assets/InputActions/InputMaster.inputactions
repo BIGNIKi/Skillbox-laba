@@ -1,22 +1,22 @@
 {
-    "name": "New Controls",
+    "name": "InputMaster",
     "maps": [
         {
             "name": "Player",
-            "id": "5cd42c25-c2ff-46ef-85f5-26b887025eff",
+            "id": "db4ea07b-cc64-4006-8be0-e12ff3e52d8a",
             "actions": [
                 {
                     "name": "move",
                     "type": "Value",
-                    "id": "6deb9944-f7ba-4af2-a499-4f7d05ddfd7a",
-                    "expectedControlType": "Dpad",
+                    "id": "b2fa23df-24e7-4783-9e88-a0a552b63b6f",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
                 },
                 {
                     "name": "shoot",
                     "type": "Button",
-                    "id": "d18f515a-51c4-4dbf-9039-1dc9eae2e40c",
+                    "id": "8cd02ee2-2347-4bba-806e-21d106656204",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -24,7 +24,7 @@
                 {
                     "name": "rush",
                     "type": "Button",
-                    "id": "beca509c-d4eb-4241-ae3f-ee44efb9cc40",
+                    "id": "26e99333-d4ff-475b-a90a-9f9c81a31d2d",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -33,18 +33,18 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "a0384447-e88f-47e1-95c6-efcedae80d5a",
+                    "id": "eabcd0ef-2c3f-4853-9344-eb2cdcf03726",
                     "path": "<Gamepad>/rightStick",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "ControlScheme",
                     "action": "move",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "2D Vector",
-                    "id": "068b2089-3f78-4dfc-8f41-ee6549b50d62",
+                    "id": "acfe78ed-e207-4a8a-80ce-de93c39d9a4c",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -55,7 +55,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "2f5bab0b-2188-4d47-99f5-062c139b7f1b",
+                    "id": "0282e1ea-c6e3-43b2-aa5d-55367613165c",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -66,8 +66,8 @@
                 },
                 {
                     "name": "down",
-                    "id": "7d3a84d3-097f-49d4-924e-b89168a8cda6",
-                    "path": "<Keyboard>/d",
+                    "id": "ab9e382a-f7d0-4ed8-a58a-099daa4c5784",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -77,7 +77,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "87ce4e4a-e2a2-4bc4-a111-68273db8bdf4",
+                    "id": "d9a59e55-3c83-4ce8-802b-049dd7d0b640",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -88,7 +88,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "8929b036-1569-4bd9-a243-efaa4f060936",
+                    "id": "bcfc5909-0747-4962-bd82-9b42713680bb",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -99,22 +99,22 @@
                 },
                 {
                     "name": "",
-                    "id": "74da77b5-4fe1-4bd1-a92b-3df139766510",
+                    "id": "cb5a3e53-ce9b-4fd6-9e1d-ced6bf22c9e4",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "ControlScheme",
                     "action": "shoot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "0eb19ef7-a746-4ea3-ae52-223f63e14220",
+                    "id": "3bb93b10-a4f2-49e7-acf2-51b44627cc08",
                     "path": "<Keyboard>/r",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "ControlScheme",
                     "action": "rush",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -122,5 +122,11 @@
             ]
         }
     ],
-    "controlSchemes": []
+    "controlSchemes": [
+        {
+            "name": "ControlScheme",
+            "bindingGroup": "ControlScheme",
+            "devices": []
+        }
+    ]
 }
